@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/ConfiguracionDAO.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Bean/DetalleBean.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Controlador/ConfiguracionControlador.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/Validacion.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/VentaDAO.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Img/PDF.png</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/LoginDAO.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/ProveedorDAO.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Bean/ConfiguracionBean.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/MedicamentoDAO.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Img/delete.png</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Bean/PacienteBean.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Img/configu.png</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Img/actualizar.png</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Controlador/LoginControlador.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Controlador/MedicamentoControlador.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Bean/VentaBean.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/PacienteDAO.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Base_Datos/Sql.sql</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Img/farma.jpg</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Controlador/ProveedorControlador.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Reportes/Excel.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Principal/Ejecutar.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Vista/Sistema.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Modelo/Conexion.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Controlador/PacienteControlador.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Controlador/VentaControlador.java</file>
+            <file>file:/C:/Users/yorvi/Documents/NetBeansProjects/SISTEMA_FARMACIA/src/Bean/MedicamentoBean.java</file>
+        </group>
+    </open-files>
+</project-private>

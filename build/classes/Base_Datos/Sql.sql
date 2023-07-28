@@ -1,0 +1,70 @@
+
+CREATE DATABASE sistemafarmacia;
+use sistemafarmacia;
+
+CREATE TABLE paciente (
+  ID int  AUTO_INCREMENT PRIMARY KEY,
+  DNI int NOT NULL,
+  NOMBRE varchar(180) COLLATE utf8_spanish_ci NOT NULL,
+  TELEFONO int(9) NOT NULL,
+  DIRECCION varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  SEXO varchar(20) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+CREATE TABLE configuracion (
+  ID int  AUTO_INCREMENT PRIMARY KEY,
+  RUC int NOT NULL,
+  NOMBRE varchar(255) COLLATE utf8_spanish_ci NOT NULL,
+  TELEFONO int(11) NOT NULL,
+  DIRECCION varchar(30) COLLATE utf8_spanish_ci NOT NULL,
+  RAZON varchar(255) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+CREATE TABLE detalle (
+  ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  CODIGO_MEDICAMENTO int NOT NULL,
+  CANTIDAD int NOT NULL,
+  PRECIO decimal(10,2) NOT NULL,
+  ID_VENTA int NOT NULL REFERENCES VENTA(ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+CREATE TABLE medicamento (
+  ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  CODIGO varchar(20) COLLATE utf8_spanish_ci NOT NULL,
+  DESCRIPCION varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  PROVEEDOR varchar(255) COLLATE utf8_spanish_ci NOT NULL,
+  STOCK int NOT NULL,
+  PRECIO decimal(10,2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+CREATE TABLE proveedor (
+  ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  RUC int NOT NULL,
+  NOMBRES varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  TELEFONO int NOT NULL,
+  DIRECCION varchar(255) COLLATE utf8_spanish_ci NOT NULL,
+  RAZON varchar(100) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+CREATE TABLE usuario (
+  ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  NOMBRES varchar(200) COLLATE utf8_spanish_ci NOT NULL,
+  CORREO varchar(200) COLLATE utf8_spanish_ci NOT NULL,
+  CONTRASEÑA varchar(50) COLLATE utf8_spanish_ci NOT NULL,
+  ROL varchar(20) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+CREATE TABLE venta (
+  ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  CLIENTE varchar(100) COLLATE utf8_spanish_ci NOT NULL,
+  VENDEDOR varchar(100) COLLATE utf8_spanish_ci NOT NULL,
+  TOTAL decimal(10,2) NOT NULL,
+  FECHA TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
